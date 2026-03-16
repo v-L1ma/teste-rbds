@@ -3,5 +3,6 @@ export interface User {
     email: string,
     fullname: string,
     active: boolean,
-    role: string
+    role: string,
+    externalUserId: string | null
 }

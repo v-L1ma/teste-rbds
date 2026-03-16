@@ -23,6 +23,7 @@ export const useAuth = () => {
                 fullname: data.fullname,
                 active: data.active,
                 role: data.role,
+                externalUserId: null
             };
 
             const token = data.account.jwt;
